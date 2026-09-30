@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0b1a1f">
+<title>Кристиян на 30</title>
+<meta name="description" content="Петък, 9 октомври, 20:00 · Villa La Bohème, Панчарево. Ще се радвам да си там.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shahk9.github.io/kristiyan30/">
+<meta property="og:title" content="Кристиян на 30">
+<meta property="og:description" content="Петък, 9 октомври, 20:00 · Villa La Bohème, Панчарево. Ще се радвам да си там.">
+<meta property="og:image" content="https://shahk9.github.io/kristiyan30/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b1a1f'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='34' fill='%23e2c285'%3E30%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Prata&family=Tenor+Sans&display=swap">
+<style>
+  html, body { margin: 0; }
+  img { max-width: 100%; }
+  /* One deliberate world: Pancharevo Lake at night, lit by the villa's chandeliers. */
+  :root {
+    color-scheme: dark;
+    --lake: #0b1a1f;
+    --lake-2: #10252b;
+    --rule: #253d44;
+    --paper: #eee6d6;
+    --mist: #9fb2ad;
+    --light: #e2c285;
+    --light-hi: #f3dfb4;
+    --light-lo: #b8914f;
+    --display: "Prata", "Didot", "Bodoni 72", Georgia, serif;
+    --body: "EB Garamond", "Garamond", Georgia, serif;
+    --label: "Tenor Sans", "Gill Sans", "Trebuchet MS", sans-serif;
+  }
+  body {
+    background: var(--lake);
+    color: var(--paper);
+    font-family: var(--body);
+    font-size: 19px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  :root:not([data-lang="en"]) .t-en,
+  :root[data-lang="en"] .t-bg { display: none !important; }
+
+  .page {
+    max-width: 680px;
+    margin: 0 auto;
+    padding-inline: 20px;
+    padding-block: 28px 64px;
+    display: grid;
+    gap: 56px;
+  }
+
+  .lang {
+    position: absolute;
+    top: calc(env(safe-area-inset-top, 0px) + 16px);
+    right: 16px;
+    font: 12px/1 var(--label);
+    letter-spacing: .16em;
+    color: var(--mist);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    padding: 9px 12px;
+    cursor: pointer;
+  }
+  .lang:hover { color: var(--light); border-color: var(--light-lo); }
+
+  :focus-visible { outline: 2px solid var(--light); outline-offset: 3px; }
+
+  /* Hero */
+  .hero { display: grid; justify-items: center; text-align: center; gap: 6px; padding-top: 28px; }
+  .eyebrow, .label {
+    font-family: var(--label);
+    font-size: 12px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--mist);
+  }
+  h1 { margin: 0; font-weight: 400; display: grid; justify-items: center; }
+  h1 .who {
+    font-family: var(--display);
+    font-size: clamp(28px, 6.4vw, 42px);
+    line-height: 1.15;
+    letter-spacing: .01em;
+    text-wrap: balance;
+    margin-top: 18px;
+  }
+  .numeral { width: min(100%, 520px); height: auto; display: block; margin-top: -6px; }
+  .numeral text { font-family: var(--display); font-feature-settings: "lnum" 1; }
+
+  .when {
+    font-family: var(--display);
+    font-size: clamp(19px, 4.2vw, 24px);
+    margin-top: -18px;
+    text-wrap: balance;
+  }
+  .when .dot { color: var(--light); padding-inline: .35em; }
+  .lede {
+    font-style: italic;
+    font-size: 21px;
+    color: var(--paper);
+    max-width: 30ch;
+    margin: 14px 0 0;
+    text-wrap: balance;
+  }
+  .count {
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font: 12px/1 var(--label);
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--light);
+  }
+  .count::before {
+    content: "";
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--light);
+    box-shadow: 0 0 10px 2px rgba(226, 194, 133, .55);
+  }
+
+  /* Details */
+  .details { margin: 0; display: grid; }
+  .row {
+    display: grid;
+    grid-template-columns: 9.5rem 1fr;
+    gap: 8px 20px;
+    padding-block: 24px;
+    border-top: 1px solid var(--rule);
+  }
+  .row:last-child { border-bottom: 1px solid var(--rule); }
+  .row dt { padding-top: 7px; }
+  .row dd { margin: 0; display: grid; gap: 4px; min-width: 0; overflow-wrap: break-word; }
+  .big { font-family: var(--display); font-size: 24px; line-height: 1.25; }
+  .sub { color: var(--mist); }
+  .addr { user-select: all; -webkit-user-select: all; }
+
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+  .btn {
+    font: 13px/1 var(--label);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 18px;
+    border-radius: 2px;
+    border: 1px solid var(--light);
+    cursor: pointer;
+    transition: background-color .2s ease, color .2s ease;
+  }
+  .btn.solid { background: var(--light); color: var(--lake); }
+  .btn.solid:hover { background: var(--light-hi); }
+  .btn.ghost { background: transparent; color: var(--light); border-color: var(--light-lo); }
+  .btn.ghost:hover { border-color: var(--light); background: rgba(226, 194, 133, .08); }
+  .btn .arr { font-family: var(--body); font-size: 16px; letter-spacing: 0; }
+
+  /* Good to know */
+  .know h2, .cal h2 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0 0 20px;
+  }
+  .notes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .note { border-top: 1px solid var(--light-lo); padding-top: 14px; display: grid; gap: 6px; align-content: start; }
+  .note p { margin: 0; color: var(--mist); font-size: 18px; }
+  .note .label { color: var(--light); }
+
+  .cal { display: grid; justify-items: start; gap: 4px; }
+  .cal p { margin: 0 0 12px; color: var(--mist); }
+
+  .sign {
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    margin: 0;
+  }
+  .sign .name { display: block; font-family: var(--display); font-style: normal; font-size: 30px; color: var(--light); margin-top: 4px; }
+
+  @media (max-width: 600px) {
+    .row { grid-template-columns: 1fr; }
+    .row dt { padding-top: 0; }
+    .notes { grid-template-columns: 1fr; gap: 22px; }
+    .actions .btn { flex: 1 1 auto; justify-content: center; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .btn { transition: none; }
+  }
+</style>
+</head>
+<body>
+<button class="lang" id="lang-toggle" type="button" aria-label="Switch to English">EN</button>
+
+<main class="page">
+  <header class="hero">
+    <div class="eyebrow"><span class="t-bg">Покана за рожден ден</span><span class="t-en">Birthday invitation</span></div>
+    <h1>
+      <span class="who"><span class="t-bg">Кристиян навършва</span><span class="t-en">Kristian turns</span></span>
+      <svg class="numeral" id="numeral" viewBox="0 0 600 390" role="img" aria-label="30">
+        <defs>
+          <radialGradient id="glow" cx="300" cy="140" r="140" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 140) scale(2 1) translate(-300 -140)">
+            <stop offset="0" stop-color="#e2c285" stop-opacity=".22"/>
+            <stop offset=".55" stop-color="#e2c285" stop-opacity=".05"/>
+            <stop offset="1" stop-color="#e2c285" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="gilt" x1="0" y1="40" x2="0" y2="210" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f6e6c1"/>
+            <stop offset=".55" stop-color="#e2c285"/>
+            <stop offset="1" stop-color="#b8914f"/>
+          </linearGradient>
+          <linearGradient id="fadeGrad" x1="0" y1="212" x2="0" y2="372" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff" stop-opacity=".5"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+          </linearGradient>
+          <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="390">
+            <rect x="0" y="212" width="600" height="178" fill="url(#fadeGrad)"/>
+          </mask>
+          <linearGradient id="shore" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#e2c285" stop-opacity="0"/>
+            <stop offset=".5" stop-color="#e2c285" stop-opacity=".45"/>
+            <stop offset="1" stop-color="#e2c285" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="hill" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#10252b" stop-opacity="0"/>
+            <stop offset=".25" stop-color="#10252b"/>
+            <stop offset=".75" stop-color="#10252b"/>
+            <stop offset="1" stop-color="#10252b" stop-opacity="0"/>
+          </linearGradient>
+          <filter id="ripple" x="-5%" y="-5%" width="110%" height="110%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.010 0.085" numOctaves="2" seed="7" result="noise">
+              <animate attributeName="baseFrequency" dur="16s" values="0.010 0.085;0.013 0.110;0.010 0.085" repeatCount="indefinite"/>
+            </feTurbulence>
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="12" xChannelSelector="R" yChannelSelector="G"/>
+          </filter>
+        </defs>
+
+        <rect x="0" y="0" width="600" height="212" fill="url(#glow)"/>
+        <!-- far shore: the hills around Pancharevo -->
+        <path d="M0 212 L0 196 C 60 184 110 170 170 176 C 220 181 250 160 300 164 C 360 169 390 150 450 158 C 510 166 550 184 600 190 L600 212 Z" fill="url(#hill)"/>
+        <rect x="0" y="211.5" width="600" height="1" fill="url(#shore)"/>
+
+        <text x="300" y="212" text-anchor="middle" font-size="236" fill="url(#gilt)">30</text>
+
+        <g mask="url(#fade)">
+          <g filter="url(#ripple)">
+            <text x="300" y="212" text-anchor="middle" font-size="236" fill="url(#gilt)" transform="matrix(1 0 0 -1 0 424)">30</text>
+          </g>
+        </g>
+        <g stroke="#e2c285" stroke-linecap="round" stroke-width="1.2">
+          <line x1="196" y1="240" x2="256" y2="240" stroke-opacity=".28"/>
+          <line x1="330" y1="258" x2="410" y2="258" stroke-opacity=".2"/>
+          <line x1="236" y1="284" x2="280" y2="284" stroke-opacity=".14"/>
+        </g>
+      </svg>
+    </h1>
+    <p class="when">
+      <span class="t-bg">Петък<span class="dot">·</span>9 октомври<span class="dot">·</span>20:00</span>
+      <span class="t-en">Friday<span class="dot">·</span>9 October<span class="dot">·</span>8 pm</span>
+    </p>
+    <p class="lede">
+      <span class="t-bg">Искам да посрещна новото десетилетие с хората, които обичам. Ще се радвам да си там.</span>
+      <span class="t-en">I want to start the next decade with the people I love. I’d be glad to have you there.</span>
+    </p>
+    <div class="count" id="count"><span class="t-bg">Петък вечер</span><span class="t-en">Friday night</span></div>
+  </header>
+
+  <dl class="details">
+    <div class="row">
+      <dt class="label"><span class="t-bg">Кога</span><span class="t-en">When</span></dt>
+      <dd>
+        <span class="big"><span class="t-bg">Петък, 9 октомври 2026</span><span class="t-en">Friday, 9 October 2026</span></span>
+        <span class="sub"><span class="t-bg">Начало 20:00 часа</span><span class="t-en">Starts at 20:00</span></span>
+      </dd>
+    </div>
+
+    <div class="row">
+      <dt class="label"><span class="t-bg">Къде</span><span class="t-en">Where</span></dt>
+      <dd>
+        <span class="big">Villa La Bohème</span>
+        <span class="sub addr" id="addr"><span class="t-bg">ул. „Самоковско шосе“ 225, Панчарево</span><span class="t-en">225 Samokovsko Shose St., Pancharevo, Sofia</span></span>
+        <div class="actions">
+          <a class="btn solid" id="gmaps" target="_blank" rel="noopener"
+             href="https://www.google.com/maps/place/La+Boheme+-+Pancharevo/@42.5968773,23.4105846,17z/data=!4m6!3m5!1s0x40aa81001aa006d5:0xc13788f841800dd0!8m2!3d42.5968773!4d23.4105846!16s%2Fg%2F11y7tkkyv1">Google Maps <span class="arr">↗</span></a>
+          <a class="btn solid" id="waze" target="_blank" rel="noopener"
+             href="https://waze.com/ul?ll=42.5968773%2C23.4105846&amp;navigate=yes">Waze <span class="arr">↗</span></a>
+          <button class="btn ghost" id="copy" type="button"><span class="t-bg">Копирай адреса</span><span class="t-en">Copy address</span></button>
+        </div>
+      </dd>
+    </div>
+
+    <div class="row">
+      <dt class="label"><span class="t-bg">Облекло</span><span class="t-en">Dress code</span></dt>
+      <dd>
+        <span class="big"><span class="t-bg">Елегантно</span><span class="t-en">Elegant</span></span>
+        <span class="sub"><span class="t-bg">Сако за мъжете, рокля или елегантен тоалет за дамите.</span><span class="t-en">A jacket for the gentlemen, a dress or an elegant outfit for the ladies.</span></span>
+      </dd>
+    </div>
+
+    <div class="row">
+      <dt class="label"><span class="t-bg">Потвърди</span><span class="t-en">RSVP</span></dt>
+      <dd>
+        <span class="big"><span class="t-bg">до понеделник, 5 октомври</span><span class="t-en">by Monday, 5 October</span></span>
+        <span class="sub"><span class="t-bg">Отговори на съобщението, с което ти изпратих поканата. Кажи ми дали идваш с половинка и дали имаш хранителни ограничения.</span><span class="t-en">Reply to the message this invitation came in. Let me know if you’re bringing a partner and whether you have any dietary needs.</span></span>
+      </dd>
+    </div>
+  </dl>
+
+  <section class="know" aria-labelledby="know-h">
+    <h2 id="know-h"><span class="t-bg">Добре е да знаеш</span><span class="t-en">Good to know</span></h2>
+    <div class="notes">
+      <div class="note">
+        <span class="label"><span class="t-bg">Пътят</span><span class="t-en">Getting there</span></span>
+        <p><span class="t-bg">Панчарево е на около 25 минути с кола от центъра на София. Ще има наздравици, затова такси е добра идея.</span><span class="t-en">Pancharevo is about 25 minutes by car from central Sofia. There will be toasts, so a taxi is a good idea.</span></p>
+      </div>
+      <div class="note">
+        <span class="label"><span class="t-bg">Край езерото</span><span class="t-en">By the lake</span></span>
+        <p><span class="t-bg">Вилата е на брега на Панчаревското езеро. Октомврийските вечери там са хладни, вземи си палто.</span><span class="t-en">The villa sits on the shore of Pancharevo Lake. October evenings there get cold, so bring a coat.</span></p>
+      </div>
+      <div class="note">
+        <span class="label"><span class="t-bg">Подаръци</span><span class="t-en">Gifts</span></span>
+        <p><span class="t-bg">Най-хубавият подарък е да дойдеш.</span><span class="t-en">Your company is the best gift.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cal" aria-labelledby="cal-h">
+    <h2 id="cal-h"><span class="t-bg">Запази датата</span><span class="t-en">Save the date</span></h2>
+    <p><span class="t-bg">Добави вечерта в календара си, за да не я пропуснеш.</span><span class="t-en">Put the evening in your calendar so it doesn’t slip.</span></p>
+    <a class="btn ghost" id="calendar" target="_blank" rel="noopener"
+       href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Kristian%20turns%2030&amp;dates=20261009T170000Z%2F20261009T230000Z&amp;location=Villa%20La%20Boh%C3%A8me%2C%20225%20Samokovsko%20Shose%2C%20Pancharevo"><span class="t-bg">Добави в Google Календар</span><span class="t-en">Add to Google Calendar</span> <span class="arr">↗</span></a>
+  </section>
+
+  <p class="sign">
+    <span class="t-bg">Очаквам те.</span><span class="t-en">See you there.</span>
+    <span class="name"><span class="t-bg">Кристиян</span><span class="t-en">Kristian</span></span>
+  </p>
+</main>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var PARTY_UTC = Date.UTC(2026, 9, 9, 17, 0); // 20:00 in Sofia (EEST, UTC+3)
+
+  var copy = {
+    bg: {
+      toggle: "EN", toggleLabel: "Switch to English",
+      title: "Кристиян на 30",
+      addr: "Villa La Bohème, ул. „Самоковско шосе“ 225, Панчарево",
+      copied: "Адресът е копиран",
+      calText: "Кристиян на 30",
+      calDetails: "Облекло: елегантно. Начало 20:00.",
+      today: "Днес от 20:00", tomorrow: "Утре от 20:00",
+      days: function (n) { return "След " + n + " дни"; },
+      after: "Благодаря, че беше с мен"
+    },
+    en: {
+      toggle: "БГ", toggleLabel: "Превключи на български",
+      title: "Kristian turns 30",
+      addr: "Villa La Bohème, 225 Samokovsko Shose St., Pancharevo, Sofia",
+      copied: "Address copied",
+      calText: "Kristian turns 30",
+      calDetails: "Dress code: elegant. Starts at 20:00.",
+      today: "Tonight at 8 pm", tomorrow: "Tomorrow at 8 pm",
+      days: function (n) { return "In " + n + " days"; },
+      after: "Thank you for being there"
+    }
+  };
+
+  function sofiaDate(ms) {
+    var s = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Sofia", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(ms));
+    var p = s.split("-");
+    return Date.UTC(+p[0], +p[1] - 1, +p[2]);
+  }
+
+  function countdownText(t) {
+    var now = Date.now();
+    var days = Math.round((sofiaDate(PARTY_UTC) - sofiaDate(now)) / 86400000);
+    if (days < 0 || now > PARTY_UTC + 8 * 3600000) return t.after;
+    if (days === 0) return t.today;
+    if (days === 1) return t.tomorrow;
+    return t.days(days);
+  }
+
+  function calendarHref(t) {
+    return "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+      "&text=" + encodeURIComponent(t.calText) +
+      "&dates=20261009T170000Z%2F20261009T230000Z" +
+      "&details=" + encodeURIComponent(t.calDetails) +
+      "&location=" + encodeURIComponent(t.addr);
+  }
+
+  var toggle = document.getElementById("lang-toggle");
+  var countEl = document.getElementById("count");
+  var copyBtn = document.getElementById("copy");
+  var lang = "bg";
+
+  function apply(next) {
+    lang = next;
+    var t = copy[lang];
+    if (lang === "en") root.setAttribute("data-lang", "en"); else root.removeAttribute("data-lang");
+    root.lang = lang;
+    document.title = t.title;
+    toggle.textContent = t.toggle;
+    toggle.setAttribute("aria-label", t.toggleLabel);
+    countEl.textContent = countdownText(t);
+    document.getElementById("calendar").href = calendarHref(t);
+  }
+
+  var initial = "bg";
+  if (location.hash === "#en") initial = "en";
+  else {
+    try { if (localStorage.getItem("k30-lang") === "en") initial = "en"; } catch (e) {}
+  }
+  apply(initial);
+
+  toggle.addEventListener("click", function () {
+    var next = lang === "bg" ? "en" : "bg";
+    apply(next);
+    try { localStorage.setItem("k30-lang", next); } catch (e) {}
+  });
+
+  copyBtn.addEventListener("click", function () {
+    var t = copy[lang];
+    var label = copyBtn.querySelector(lang === "en" ? ".t-en" : ".t-bg");
+    var original = label.textContent;
+    function done() {
+      label.textContent = t.copied;
+      setTimeout(function () { label.textContent = original; }, 2200);
+    }
+    function fallback() {
+      var r = document.createRange();
+      r.selectNodeContents(document.getElementById("addr"));
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(r);
+    }
+    try {
+      navigator.clipboard.writeText(t.addr).then(done, fallback);
+    } catch (e) { fallback(); }
+  });
+
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var svg = document.getElementById("numeral");
+    if (svg.pauseAnimations) svg.pauseAnimations();
+  }
+})();
+</script>
+</body>
+</html>
